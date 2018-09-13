@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="twp-himes-english" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="k" target="1.5" />
+      <module name="twp-himes-english" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
